@@ -1,0 +1,290 @@
+{
+	"items": {
+		"empty": {
+			"type": "weapon",
+			"name": "Empty",
+			"description": "",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"hp": "0",
+				"value": "0"
+			}
+		},
+		"hands": {
+			"type": "weapon",
+			"name": "Hands",
+			"description": "They're your hands.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"dmg": "1"
+			}
+		},
+		"bread": {
+			"type": "food",
+			"name": "Bread",
+			"description": "A crusty piece of bread.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"health": "+20",
+				"value": "10"
+			}
+		},
+		"potion": {
+			"type": "potion",
+			"name": "Healing Elixir",
+			"description": "A small bottle, with what looks like healing juice.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"hp": "+25",
+				"maxHP": "+0",
+				"weight": "1",
+				"value": "50"
+			}
+		},
+		"superpotion": {
+			"type": "potion",
+			"name": "Super Healing Elixir",
+			"description": "A larger, deeper bottle, with a more *insert word here* healing power.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"hp": "+25",
+				"maxHP": "+0",
+				"weight": "1",
+				"value": "20"
+			}
+		},
+		"godpotion": {
+			"type": "potion",
+			"name": "God Elixir",
+			"description": "A tiny bottle, with what looks like an empowered version of a super elixir. (Increases Max HP)",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"hp": "+0",
+				"maxHP": "+60",
+				"weight": "1",
+				"value": "50"
+			}
+		},
+		"rawmeat": {
+			"type": "food",
+			"name": "Raw Meat",
+			"description": "Gross, tangy, raw meat. Not a good choice. Better than burnt meat, though.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"health": "+7",
+				"weight": "2",
+				"value": "4"
+			}
+		},
+		"cookedmeat": {
+			"type": "food",
+			"name": "Cooked Meat",
+			"description": "A good piece of meat. Cooked right through. Looks delicious.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"health": "+13",
+				"weight": "2",
+				"value": "10"
+			}
+		},
+		"burntmeat": {
+			"type": "food",
+			"name": "Burnt Meat",
+			"description": "Awh no! Burnt meat. The worst of its counterparts. Tastes like charcoal, sells for nothing.",
+			"position": "mouth",
+			"level": 1,
+			"properties": {
+				"health": "+4",
+				"weight": "2",
+				"value": "2"
+			}
+		},
+		"shiv": {
+			"type": "weapon",
+			"name": "Shiv",
+			"description": "A small dagger.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"damage": "+3",
+				"weight": "2",
+				"value": "30"
+			}
+		},
+		"dagger": {
+			"type": "weapon",
+			"name": "Dagger",
+			"description": "A more medium sized, but still basic dagger.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"damage": "+5",
+				"weight": "1",
+				"value": "50"
+			}
+		},
+		"broadsword": {
+			"type": "weapon",
+			"name": "Broad Sword",
+			"description": "A large sword, with a medium hilt. Deals moderate damage.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"damage": "+10",
+				"weight": "6",
+				"value": "55"
+			}
+		},
+		"shortsword": {
+			"type": "weapon",
+			"name": "Short Sword",
+			"description": "The most basic of short swords, dealing small amounts of damage.\n Good selling price.",
+			"position": "",
+			"level": 1,
+			"properties": {
+				"damage": "+7",
+				"weight": "5",
+				"value": "70"
+			}
+		},
+		"longsword": {
+			"type": "weapon",
+			"name": "Long Sword",
+			"description": "The longer version of it's brother, yet with less damage and selling price. Not recommended for novice users.\n Leaves quite a mark.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"damage": "+6",
+				"weight": "2",
+				"value": "60"
+			}
+		},
+		"spear": {
+			"type": "weapon",
+			"name": "Spear",
+			"description": "A basic spear. Long stick, short dagger. Average selling price.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"damage": "+5",
+				"weight": "4",
+				"value": "50"
+			}
+		},
+		"katana": {
+			"type": "weapon",
+			"name": "Katana",
+			"description": "An assassin-like weapon. Looks hard to use.",
+			"position": "rightHand",
+			"level": 3,
+			"properties": {
+				"damage": "+50",
+				"weight": "3",
+				"value": "80"
+			}
+		},
+		"woodshield": {
+			"type": "armor",
+			"name": "Wooden Shield",
+			"description": "A beat up wooden shield. Not well put together. Watch out for splinters!",
+			"position": "leftHand",
+			"level": 1,
+			"properties": {
+				"armour": "+3",
+				"weight": "4",
+				"value": "30"
+			}
+		},
+		"rusthelmet": {
+			"type": "armor",
+			"name": "Rusty Helmet",
+			"description": "An old rusty helmet. Will have to do.",
+			"position": "head",
+			"level": 1,
+			"properties": {
+				"armour": "+4",
+				"weight": "3",
+				"value": "40"
+			}
+		},
+		"leatherchest": {
+			"type": "armor",
+			"name": "Leather Chestplate",
+			"description": "A squishy piece of leather armor. Not much use. Better than just your chest, though.",
+			"position": "chest",
+			"level": 1,
+			"properties": {
+				"armour": "+5",
+				"weight": "10",
+				"value": "50"
+			}
+		},
+		"leatherpants": {
+			"type": "armor",
+			"name": "Leather Leggings",
+			"description": "A set of leggings, made entirely of leather. Has some holes, but is better than just pants.",
+			"position": "legs",
+			"level": 1,
+			"properties": {
+				"armour": "+2",
+				"weight": "4",
+				"value": "30"
+			}
+		},
+		"leatherboots": {
+			"type": "armor",
+			"name": "Leather Boots",
+			"description": "A small pair of boots you can barely fit in. Better than walking around barefoot, though.\n Could catch a disease!",
+			"position": "feet",
+			"level": 1,
+			"properties": {
+				"armour": "+2",
+				"weight": "10",
+				"value": "50"
+			}
+		},
+		"leathergloves": {
+			"type": "armor",
+			"name": "Leather Gloves",
+			"description": "They only seem to cover your palm and back of hand. Fingerless gloves, you could say.",
+			"position": "bothArms",
+			"level": 1,
+			"properties": {
+				"armour": "+2",
+				"weight": "6",
+				"value": "50"
+			}
+		},
+		"leatherbrace": {
+			"type": "armor",
+			"name": "Leather Braces",
+			"description": "These badboys seem to cover from below your elbow to your palms. Still fingerless, but more protection.",
+			"position": "bothArms",
+			"level": 1,
+			"properties": {
+				"armour": "+4",
+				"weight": "9",
+				"value": "30"
+			}
+		},
+		"locknpick": {
+			"type": "tool",
+			"name": "Lock & Pick",
+			"description": "Basic tools for picking locks.",
+			"position": "rightHand",
+			"level": 1,
+			"properties": {
+				"weight": "1",
+				"value": "20"
+			}
+		}
+	}
+}
