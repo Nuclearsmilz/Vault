@@ -235,17 +235,18 @@ public enum Commands {
 	}
 
 	// debug commands go here. only available if player's name is test
-	@Command(command = "attack", aliases = "", description = "Adjusts player's damage level.", debug = true)
-	public void command_attackChange( String arg ) {
+	@Command(command = "damage", aliases = "", description = "Adjusts player's damage level.", debug = true)
+	public void command_dmgChange( String arg ) {
 		double damage = Double.parseDouble(arg);
 		player.setDmg(damage);
 	}
 
-	@Command(command = "maxhealth", aliases = "", description = "Adjusts player's maximum HP.", debug = true)
+	@Command(command = "maxHP", aliases = "", description = "Adjusts player's maximum HP.", debug = true)
 	public void command_maxHP( String arg ) {
 		int maxHP = Integer.parseInt(arg);
 		if (maxHP > 0) {
-			player.setMaxHP(maxHP);
+			player.setMaxHP(maxHP); 
+			VaultLogger.say(player.getName() + "'s maximum HP is now " + player.getMaxHP());
 		} else {
 			VaultLogger.say("Maximum HP must be positive!");
 		}
@@ -256,6 +257,7 @@ public enum Commands {
 		int HP = Integer.parseInt(arg);
 		if (HP > 0) {
 			player.setHP(HP);
+			VaultLogger.say(player.getName() + "'s maximum HP is now " + player.getHP());
 		} else {
 			VaultLogger.say("HP must be positive!");
 		}
