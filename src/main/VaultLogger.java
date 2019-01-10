@@ -5,7 +5,8 @@ import java.net.*;
 import java.util.*;
 import java.util.concurrent.*;
 
-import org.slf4j.*;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 public class VaultLogger {
 	private static Logger logger = LoggerFactory.getLogger(VaultLogger.class);
